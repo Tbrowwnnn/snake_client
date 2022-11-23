@@ -17,10 +17,10 @@ const connect = function () {
     console.log("Heyyy you're connected!")
 
     conn.write("Name: TRB")
-    conn.write("Move: up");
-    conn.write("Move: up")
-    conn.write("Move: left")
-    conn.write("Move: right")
+    // conn.write("Move: up");
+    // conn.write("Move: up")
+    // conn.write("Move: left")
+    // conn.write("Move: right")
 
   })
 
@@ -31,4 +31,6 @@ const connect = function () {
 
 };
 
-module.exports = connect;
+module.exports = {
+  connect
+};
